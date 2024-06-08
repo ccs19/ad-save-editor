@@ -28,11 +28,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@types/node", "npm:20.14.2"],\
+          ["@types/pako", "npm:2.0.3"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:99ad18de107a4a7b9dc106bbbef3ca09c99df59eb6bd40fe7c66fab1301db21ef23671b06614bf440e1de7e7c7388fb254877cfe604f5dc06c57605006441e67#npm:14.2.3"],\
           ["next", "virtual:99ad18de107a4a7b9dc106bbbef3ca09c99df59eb6bd40fe7c66fab1301db21ef23671b06614bf440e1de7e7c7388fb254877cfe604f5dc06c57605006441e67#npm:14.2.3"],\
+          ["pako", "npm:2.1.0"],\
           ["postcss", "npm:8.4.38"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:99ad18de107a4a7b9dc106bbbef3ca09c99df59eb6bd40fe7c66fab1301db21ef23671b06614bf440e1de7e7c7388fb254877cfe604f5dc06c57605006441e67#npm:18.3.1"],\
@@ -437,6 +439,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/pako", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../../C:/Users/chris/AppData/Local/Yarn/Berry/cache/@types-pako-npm-2.0.3-94a7224daf-10c0.zip/node_modules/@types/pako/",\
+        "packageDependencies": [\
+          ["@types/pako", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/prop-types", [\
       ["npm:15.7.12", {\
         "packageLocation": "../../../C:/Users/chris/AppData/Local/Yarn/Berry/cache/@types-prop-types-npm-15.7.12-b093f43531-10c0.zip/node_modules/@types/prop-types/",\
@@ -614,11 +625,13 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["ad-save-editor", "workspace:."],\
           ["@types/node", "npm:20.14.2"],\
+          ["@types/pako", "npm:2.0.3"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:99ad18de107a4a7b9dc106bbbef3ca09c99df59eb6bd40fe7c66fab1301db21ef23671b06614bf440e1de7e7c7388fb254877cfe604f5dc06c57605006441e67#npm:14.2.3"],\
           ["next", "virtual:99ad18de107a4a7b9dc106bbbef3ca09c99df59eb6bd40fe7c66fab1301db21ef23671b06614bf440e1de7e7c7388fb254877cfe604f5dc06c57605006441e67#npm:14.2.3"],\
+          ["pako", "npm:2.1.0"],\
           ["postcss", "npm:8.4.38"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:99ad18de107a4a7b9dc106bbbef3ca09c99df59eb6bd40fe7c66fab1301db21ef23671b06614bf440e1de7e7c7388fb254877cfe604f5dc06c57605006441e67#npm:18.3.1"],\
@@ -3646,6 +3659,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["p-map", "npm:4.0.0"],\
           ["aggregate-error", "npm:3.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pako", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../../C:/Users/chris/AppData/Local/Yarn/Berry/cache/pako-npm-2.1.0-78df11948c-10c0.zip/node_modules/pako/",\
+        "packageDependencies": [\
+          ["pako", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\

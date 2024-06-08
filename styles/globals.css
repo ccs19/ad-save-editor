@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.textarea-size {
+    width: 60vw;
+    height: 30vh;
+}
