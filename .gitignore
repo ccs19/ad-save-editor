@@ -15,7 +15,7 @@ logs
 # next.js
 /.next/
 # Commented out for pages deployment
-# /out/
+/out/
 
 # production
 /build
