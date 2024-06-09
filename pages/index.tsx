@@ -14,9 +14,10 @@ export default function Home() {
     return (
         <>
             <main
-                className={`flex min-h-screen flex-col min-w-fit items-center pt-12 md:p-24 font-mono bg-gray-900 ${inter.className}`}
+                className={`flex min-h-screen flex-col min-w-fit items-center p-8 md:p-24 font-mono bg-gray-900 ${inter.className}`}
             >
-
+                <h1 className={"text-lg md:text-3xl font-bold text-white pb-4 text-center"}>Antimatter Dimensions Save
+                    Editor</h1>
                 <div className={"basis-full"}>
                     <div className="grid grid-cols-2 md:grid-cols-5 w-full gap-4 pb-10">
                         <Button onClick={() => {

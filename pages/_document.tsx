@@ -5,7 +5,8 @@ import {ThemeModeScript} from "flowbite-react";
 export default function Document() {
     return (
         <Html lang="en">
-            <Head>
+            <Head title={"Antimatter Dimensions Save Editor"}>
+                <title>Antimatter Dimensions Save Editor</title>
                 <ThemeModeScript/>
             </Head>
             <body>
